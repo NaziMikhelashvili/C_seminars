@@ -9,3 +9,5 @@ if (b2 * b2 == b1)
 Console.WriteLine("Yes");
 else
 Console.WriteLine("No");
+
+
