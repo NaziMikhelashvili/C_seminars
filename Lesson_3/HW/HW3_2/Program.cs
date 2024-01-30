@@ -10,7 +10,7 @@ while ( a < arr.Length)
     if (arr[a] % 2 ==0)
     {
     i = i + 1;
-    }
-    a = a + 1;
+   }
+     a = a + 1;
 }
 Console.WriteLine(i);
