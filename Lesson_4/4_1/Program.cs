@@ -55,3 +55,8 @@ Print(mass);
 
 double Result = CountSimpleNum(mass);
 Console.WriteLine(Result);
+
+
+
+
+
