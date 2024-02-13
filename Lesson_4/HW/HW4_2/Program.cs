@@ -9,14 +9,12 @@ void Print(int[] arr)
     Console.WriteLine();
 }
 
-int [] MassNums(int size, int from, int to)
+int [] MassNums(int size)
 {
     int[] arr = new int[size];
-    Random n_new = new Random();
-
 
     for (int i = 0; i < size; i++)
-        arr[i] = (n_new.Next(from, to));
+        arr[i] = new Random().Next(100, 999);
     return arr;
 }
 int InRange (int[] arr)
@@ -31,7 +29,7 @@ int InRange (int[] arr)
 
 int num = int.Parse(Console.ReadLine()!);
 
-int[] mass = MassNums(num, 100, 999);
+int[] mass = MassNums(num);
 Print(mass);
 
 int Result = InRange(mass);

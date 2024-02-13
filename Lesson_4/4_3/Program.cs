@@ -44,3 +44,27 @@ static int MakeInteger(int[] arr, int size)
             result = result * 10 + arr[i];
         }
         return result;}
+
+
+
+//int[] arr = new int[size];
+
+// for (int i = 0; i < size; i++)
+//     arr[i] = new Random().Next(from, to + 1);
+// return arr;
+
+// long CountNum(int[] arr)
+// {
+//     string word = "";
+
+//     foreach (int number in arr)
+//     {
+//         word += number;
+//     }
+
+//     return long.Parse(word);
+// }
+
+// int num = int.Parse(Console.ReadLine()!);
+// int start = int.Parse(Console.ReadLine()!);
+// int stop = int.Parse(Console.ReadLine()!);
